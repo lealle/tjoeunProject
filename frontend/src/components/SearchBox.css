@@ -1,0 +1,31 @@
+/* Search box 전체 박스 (input 감싸는 컨테이너) */
+.searchbox-container {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 400px;
+  z-index: 50;
+
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* 검색 input */
+.searchbox-input {
+  width: 100%;
+  padding: 15px 25px;
+  font-size: 16px;
+
+  border-radius: 25px;
+  border: none;
+  outline: none;
+
+  background: transparent;
+  color: #333;
+  font-weight: 500;
+}
